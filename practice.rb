@@ -17,8 +17,30 @@ def gread
 end
 
 puts gread
-=end
+
 def ave(japanise , math, science, social)
   (japanise + math + science + social)/4
 end
 puts ave(80, 70, 60, 40)
+
+luck = ["大吉", "中吉", "小吉"]
+10.times do
+  puts luck.sample
+  sleep(4)
+end
+a = {:"japanise" => 90, :"math" => 80, :"sciencr" => 70}
+
+=end
+def is_three(num)
+  if num % 3 == 0
+    sleep(2)
+    puts "3の倍数です"
+  end
+end
+
+num = 1
+30.times do
+  num = num + 1
+  puts num
+  is_three(num)
+end
