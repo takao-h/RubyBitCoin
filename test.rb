@@ -4,6 +4,8 @@
 require 'net/http'
 require 'uri'
 require 'json'
+# key.rbの内容が使えるようになる
+require 'key'
 # endpoint
 uri = URI.parse("https://api.bitflyer.jp")
 # api request_uri
