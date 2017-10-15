@@ -31,8 +31,8 @@ end
 
 def order(order , price, size)
   # key.rbで定義したAPI_KEYとAPI_SECLETを代入
-  key = "{{ API_KEY }}"
-  secret = "{{ API_SECRET }}"
+  key = API_KEY
+  secret = API_SECRET
 
   timestamp = Time.now.to_i.to_s
   method = "POST"

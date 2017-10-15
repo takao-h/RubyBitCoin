@@ -5,8 +5,8 @@ require "openssl"
 require "./key"
 
 def get_my_balance(coin_name)
-  key = "{{ API_KEY }}"
-  secret = "{{ API_SECRET }}"
+  key =  API_KEY
+  secret = API_SECRET 
 
   timestamp = Time.now.to_i.to_s
   method = "GET"
